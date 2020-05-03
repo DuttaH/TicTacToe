@@ -1,5 +1,6 @@
 from Instructions import *
 from GamePlay import *
+import os
 
 choice = ''
 print_help(False)
@@ -11,5 +12,6 @@ while choice != '0':
     if choice == '5':
         print_help(True)
     if choice == '0':
+        os.system('clear')
         break
     print_menu(True)

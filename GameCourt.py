@@ -34,7 +34,7 @@ def printmove(size, row):
 
 
 def print_court(ct, size):
-    os.system('cls')
+    os.system('clear')
     ct_list = list(ct.values())
     spline(size, '|', ' ')
     printmove(size, ct_list[0:3])

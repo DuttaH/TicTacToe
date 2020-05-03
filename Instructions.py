@@ -43,7 +43,7 @@ def fittext(text, width, sp_ch):
 
 
 def print_help(hold):
-    os.system('cls')
+    os.system('clear')
     df = pd.read_excel(r'RulesDB.xlsx')
     rules = df[:].values
     hline(63)
@@ -59,7 +59,7 @@ def print_help(hold):
 
 def print_menu(cls):
     if cls:
-        os.system('cls')
+        os.system('clear')
     hline(63)
     print('Menu'.center(63))
     hline(63)
